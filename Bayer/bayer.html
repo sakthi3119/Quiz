@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyer's Test Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bayerstyle.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Beyer's Test Quiz</h1>
+        <form id="quiz-form" action="bayersscore.html" method="post">
+            <div class="question-card">
+                <p class="question">Beyer's test identifies the presence of:</p>
+                <label class="option"><input type="radio" name="q1" value="a"> Aldehydes</label>
+                <label class="option"><input type="radio" name="q1" value="b"> Ketones</label>
+                <label class="option"><input type="radio" name="q1" value="c"> Alcohols</label>
+                <label class="option"><input type="radio" name="q1" value="d"> Carboxylic acids</label>
+            </div>
+            <div class="question-card">
+                <p class="question">A positive Beyer's test results in the formation of a:</p>
+                <label class="option"><input type="radio" name="q2" value="a"> Yellow precipitate</label>
+                <label class="option"><input type="radio" name="q2" value="b"> Blue-green precipitate</label>
+                <label class="option"><input type="radio" name="q2" value="c"> Colorless gas</label>
+                <label class="option"><input type="radio" name="q2" value="d"> White cloudy solution</label>
+            </div>
+            <div class="question-card">
+                <p class="question">The color change in a positive Beyer's test is due to the reaction between:</p>
+                <label class="option"><input type="radio" name="q3" value="a"> Aldehyde and potassium permanganate</label>
+                <label class="option"><input type="radio" name="q3" value="b"> Aldehyde and an alkaline solution (KOH)</label>
+                <label class="option"><input type="radio" name="q3" value="c"> Aldehyde and a copper(II) ion solution</label>
+                <label class="option"><input type="radio" name="q3" value="d"> Aldehyde and a strong acid</label>
+            </div>
+            <div class="question-card">
+                <p class="question">Differentiating Beyer's and Fehling's test:</p>
+                <label class="option"><input type="radio" name="q4" value="a"> Both use the same color change for aldehydes</label>
+                <label class="option"><input type="radio" name="q4" value="b"> Fehling's test gives a red precipitate for aldehydes</label>
+                <label class="option"><input type="radio" name="q4" value="c"> Beyer's test is more sensitive than Fehling's test</label>
+                <label class="option"><input type="radio" name="q4" value="d"> Fehling's test requires heating, while Beyer's test doesn't</label>
+            </div>
+            <div class="question-card">
+                <p class="question">A limitation of Beyer's test is its inability to:</p>
+                <label class="option"><input type="radio" name="q5" value="a"> Distinguish between aldehydes and certain ketones</label>
+                <label class="option"><input type="radio" name="q5" value="b"> Detect very low concentrations of aldehydes</label>
+                <label class="option"><input type="radio" name="q5" value="c"> Work in acidic or neutral solutions</label>
+                <label class="option"><input type="radio" name="q5" value="d"> Provide a quick and simple test</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="bayerscripts.js"></script>
+</body>
+</html>

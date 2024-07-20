@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fehling's Test Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fehlingstyle.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Fehling's Test Quiz</h1>
+        <form id="quiz-form" action="fehlingscore.html" method="post">
+            <div class="question-card">
+                <p class="question">Fehling's test solution is a mixture of two separate solutions. Which of the following ions are present in these solutions?</p>
+                <label class="option"><input type="radio" name="q1" value="a"> Sodium (Na+) and chloride (Cl-)</label>
+                <label class="option"><input type="radio" name="q1" value="b"> Copper (Cu2+) and sulfate (SO42-)</label>
+                <label class="option"><input type="radio" name="q1" value="c"> Potassium (K+) and hydroxide (OH-) </label>
+                <label class="option"><input type="radio" name="q1" value="d"> Magnesium (Mg2+) and nitrate (NO3-)</label>
+            </div>
+            <div class="question-card">
+                <p class="question">A positive Fehling's test result indicates the presence of:</p>
+                <label class="option"><input type="radio" name="q2" value="a"> Fats and oils</label>
+                <label class="option"><input type="radio" name="q2" value="b"> Reducing sugars </label>
+                <label class="option"><input type="radio" name="q2" value="c"> Inorganic salts</label>
+                <label class="option"><input type="radio" name="q2" value="d"> Amino acids</label>
+            </div>
+            <div class="question-card">
+                <p class="question">Fehling's test detects reducing sugars because they can:</p>
+                <label class="option"><input type="radio" name="q3" value="a"> Increase the pH of a solution</label>
+                <label class="option"><input type="radio" name="q3" value="b"> Reduce copper(II) ions (Cu2+) to copper(I) ions (Cu+) </label>
+                <label class="option"><input type="radio" name="q3" value="c"> Form a white precipitate with barium chloride</label>
+                <label class="option"><input type="radio" name="q3" value="d"> Change the color of universal indicator paper</label>
+            </div>
+            <div class="question-card">
+                <p class="question">Compared to Fehling's test, Tollens' test:</p>
+                <label class="option"><input type="radio" name="q4" value="a"> Is less specific and reacts with more types of molecules.</label>
+                <label class="option"><input type="radio" name="q4" value="b"> Is more specific and primarily identifies aldehydes. </label>
+                <label class="option"><input type="radio" name="q4" value="c"> Requires heating the solution for a positive result.</label>
+                <label class="option"><input type="radio" name="q4" value="d"> Does not involve any color change during the test.</label>
+            </div>
+            <div class="question-card">
+                <p class="question">A limitation of Fehling's test is that it:</p>
+                <label class="option"><input type="radio" name="q5" value="a"> Is a simple and easy-to-perform test.</label>
+                <label class="option"><input type="radio" name="q5" value="b"> Provides a quick visual confirmation of reducing sugars.</label>
+                <label class="option"><input type="radio" name="q5" value="c"> Can be used with very small sample volumes.</label>
+                <label class="option"><input type="radio" name="q5" value="d"> Cannot distinguish between all types of reducing sugars. </label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="fehlingscripts.js"></script>
+</body>
+</html>
